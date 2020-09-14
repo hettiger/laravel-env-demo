@@ -27,5 +27,15 @@
         <server name="QUEUE_CONNECTION" value="sync"/>
         <server name="SESSION_DRIVER" value="array"/>
         <server name="TELESCOPE_ENABLED" value="false"/>
+        <server name="SERVER_STRING" value="foo"/>
+        <server name="SERVER_BOOL_FALSE" value="false"/>
+        <server name="SERVER_BOOL_TRUE" value="true"/>
+        <server name="SERVER_BOOL_FALSE_PARENTHESES" value="(false)"/>
+        <server name="SERVER_BOOL_TRUE_PARENTHESES" value="(true)"/>
+        <env name="ENV_STRING" value="foo"/>
+        <env name="ENV_BOOL_FALSE" value="false"/>
+        <env name="ENV_BOOL_TRUE" value="true"/>
+        <env name="ENV_BOOL_FALSE_PARENTHESES" value="(false)"/>
+        <env name="ENV_BOOL_TRUE_PARENTHESES" value="(true)"/>
     </php>
 </phpunit>
